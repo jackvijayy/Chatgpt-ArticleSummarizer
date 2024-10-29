@@ -66,7 +66,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/jackvijayy/Loom.git
+git clone https://github.com/jackvijayy/Chatgpt-ArticleSummarizer.git
 
 ```
 
@@ -78,31 +78,12 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="YOUR KEY"
-CLERK_SECRET_KEY="YOUR KEY"
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_STREAM_API_KEY="YOUR KEY"
-
-STREAM_SECRET_KEY="YOUR KEY"
-NEXT_PUBLIC_BASE_URL=localhost:3000
-```
-
-
 **Running the Project**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open [http://localhost:5173](http://localhost:5001) in your browser to view the project.
 
 
